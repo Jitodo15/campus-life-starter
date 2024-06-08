@@ -1,0 +1,162 @@
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: gold;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: maroon;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: maroon;
+
+}
+
+header {
+    padding: 20px;
+    margin: 5px;
+    /* background-image: url("assets/htLogo.png");
+    background-size: 100% 100%; */
+    text-align: center;
+}
+
+
+#navigation {
+    overflow: hidden;
+    border: 5px solid maroon;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation li a {
+    display: block;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: #111;
+}
+
+
+
+
+#organizations {
+    padding: 20px;
+    margin: 5px;
+
+}
+
+#events {
+    padding: 20px;
+    margin: 5px;
+
+}
+
+#news {
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.organization-heading {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.organization-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.organization-info{
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+}
+
+.organization-info p{
+    color: white;
+}
+
+.event-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.event-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.event {
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.event p{
+    color: white;
+}
+
+.event a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.event a:hover{
+    color: #111;
+}
+
+.news-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.news-content {
+    display: flex;
+    gap: 20px;
+}
+
+.article a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.article a:hover{
+    color: white;
+}
